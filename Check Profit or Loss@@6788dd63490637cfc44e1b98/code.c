@@ -3,12 +3,12 @@ int main() {
     int a,b;
     scanf("%d %d",&a,&b);
     if(a>b){
-        printf("Loss")
+        printf("Loss");
     }
     else if(b>a){
-        printf("Profit")
+        printf("Profit");
     }
     else if(b==a){
-        printf("No Profit No Loss")
+        printf("No Profit No Loss");
 }
 }
