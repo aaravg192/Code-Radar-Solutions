@@ -12,6 +12,6 @@ char *checkCharacter(char ch) {
 int main() {
     char ch;
     scanf("%c", &ch);
-    printf(" %s\n", checkCharacter(ch));
+    printf("%s\n", checkCharacter(ch));
     return 0;
 }
