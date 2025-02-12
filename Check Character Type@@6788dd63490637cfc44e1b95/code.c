@@ -6,7 +6,7 @@ char *checkCharacter(char ch) {
     else if (ch >= '0' && ch <= '9')
         return "Digit";
     else
-        return "Special character";
+        return "Special Character";
 }
 
 int main() {
