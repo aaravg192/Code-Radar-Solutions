@@ -7,10 +7,10 @@ int main() {
             printf("Stop");
             break;
         case('G'):
-            printf("Good");
+            printf("Go");
             break;
         case('Y'):
-            printf("");
+            printf("Slow Down");
             break;
         default: printf("Invalid input");break;
         }
