@@ -25,7 +25,7 @@ int main() {
             if (b != 0) 
                 printf("%d\n", (int)(a / b)); // Explicit integer conversion
             else 
-                printf("Division by zero error\n");
+                printf("error\n");
             break;
         default:
             printf("Invalid operator\n");
