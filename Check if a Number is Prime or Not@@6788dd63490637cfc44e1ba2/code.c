@@ -5,7 +5,7 @@ int main() {
     for(int temp=2;temp<a;temp++) {
         if(a%temp!=0){
             isprime=1;
-        }else if (a%temp==0){
+       }else if (a%temp==0){
             isprime=0;       
         }
     }
