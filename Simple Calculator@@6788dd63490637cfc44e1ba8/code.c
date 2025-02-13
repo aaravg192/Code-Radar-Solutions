@@ -11,7 +11,7 @@ int main() {
             break;
         case("-"):
             float sub=a-b;
-            printf("%.2f",sub)
+            printf("%.2f",sub);
             break;
         case("*"):
             float mul=a*b;
