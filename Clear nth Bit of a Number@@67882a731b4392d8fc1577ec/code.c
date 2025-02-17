@@ -20,7 +20,7 @@ int main() {
         printf("%d",num);
     }
     else{
-        printf("%d",(int)(num-pow(2,n)));
+        printf("%d",num & ~(1<<n));
     }   
     return 0;
 }
