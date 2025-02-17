@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdio.h>
 #include <math.h>
 
 int main() {
@@ -20,7 +21,7 @@ int main() {
         printf("%d",num);
     }
     else{
-        printf("%d",(int)(bit-pow(2,n)));
+        printf("%d",(int)(num-pow(2,n)));
     }   
     return 0;
 }
