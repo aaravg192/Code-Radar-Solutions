@@ -10,9 +10,9 @@ int main() {
         scanf("%f ",&marks);
     }
     for(int temp1=a;temp1!=0;temp1--){
-        printf("Roll Number: %d,",rno);
-        printf("Name: %s,",name);
-        printf("Marks: %.2f",marks);        
+        printf("Roll Number: %d, ",rno);
+        printf("Name: %s, ",name);
+        printf("Marks: %.2f\n",marks);        
     }
     return 0;
 }
