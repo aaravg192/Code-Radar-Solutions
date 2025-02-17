@@ -17,11 +17,10 @@ int main() {
     // Extract the nth bit using bitwise shift and AND
     bit = (num >> n) & 1;
     if(bit==0) {
-        printf("%d",num)
+        printf("%d",num);
     }
     else{
         printf("%d",(int)(bit-pow(2,n)));
-    }
-    
+    }   
     return 0;
 }
